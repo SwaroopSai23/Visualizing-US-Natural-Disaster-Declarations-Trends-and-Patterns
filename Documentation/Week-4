@@ -1,0 +1,31 @@
+Week 4 – Live Dataset Importing & Dashboard Creation (Planned / Proposed)
+
+A live dataset refers to data that is continuously updated from a real-world source rather than being static or fixed.
+
+Live datasets reflect current and real-time changes, making analysis more practical and industry-oriented.
+
+These datasets are usually sourced from APIs, cloud databases, government portals, or online data services.
+
+In the context of analytics, a live dataset ensures that visualizations and insights update automatically when new data is added.
+
+Live datasets help analysts work with real-world data challenges, such as missing values, changing formats, and large data volumes.
+
+Unlike static datasets, live datasets require proper data refresh mechanisms.
+
+Tools like Power BI, Tableau, and Python support live or scheduled data connections.
+
+Using live datasets improves decision-making accuracy because insights are based on the latest data.
+
+Live data is commonly used in business intelligence, disaster monitoring, finance, healthcare, and government analytics.
+
+In our project, the US Natural Disaster dataset can be treated as a live dataset when connected directly to updated FEMA sources.
+
+Live datasets allow dashboards to remain relevant and scalable over time.
+
+Working with live data builds industry-ready data analytics skills.
+
+It also helps understand data pipelines, refresh schedules, and performance optimization.
+
+Live datasets support dynamic filtering and real-time analysis.
+
+Overall, live datasets bridge the gap between academic learning and real-world analytics applications.
