@@ -1,0 +1,23 @@
+Week 1 – Data Cleaning
+
+Collected the US Natural Disaster Declarations dataset from FEMA, which contains historical disaster records across the United States.
+
+Studied the dataset structure, including columns such as disaster number, declaration date, state, incident type, and assistance programs.
+
+Identified missing values in critical fields like dates and incident categories.
+
+Detected duplicate disaster records that could lead to incorrect analysis.
+
+Checked for inconsistent naming of states and disaster types.
+
+Removed unnecessary or irrelevant columns that did not contribute to analysis.
+
+Standardized column names for clarity and uniformity.
+
+Ensured consistent date formats across the dataset.
+
+Verified the accuracy of disaster identifiers.
+
+Prepared a clean and structured dataset suitable for further processing.
+
+Ensured data reliability to avoid misleading insights in later stages.
