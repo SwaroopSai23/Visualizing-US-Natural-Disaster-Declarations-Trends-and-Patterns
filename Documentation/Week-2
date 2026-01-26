@@ -1,25 +1,21 @@
-Week 2 – Data Cleaning Using Python
+📅 Week 2: Data Cleaning Using Python
 
-Loaded the FEMA dataset into Python using the Pandas library.
+Loaded the dataset into Jupyter Notebook using Pandas.
 
-Inspected data types to identify inconsistencies.
+Performed detailed inspection using functions like info() and isnull().
 
-Handled missing values using appropriate techniques such as filling or dropping.
+Rechecked missing values and validated their business relevance.
 
-Removed duplicate disaster entries programmatically.
+Retained missing incident end dates as valid domain-specific cases.
 
-Converted date columns into proper datetime formats.
+Removed unnecessary identifier and redundant columns programmatically.
 
-Normalized categorical values like state names and incident types.
+Converted data types explicitly to avoid aggregation and calculation issues.
 
-Filtered out invalid or incomplete records.
+Standardized categorical values to ensure consistency across records.
 
-Used NumPy for efficient numerical handling.
+Validated numeric columns for accuracy and correctness.
 
-Automated repetitive cleaning tasks for efficiency.
+Ensured reproducibility and transparency of the cleaning process.
 
-Ensured reproducibility of the cleaning process.
-
-Validated the cleaned dataset before analysis.
-
-Prepared a Python-cleaned dataset ready for EDA and visualization.
+Exported the cleaned dataset for use in Power BI visualization.
