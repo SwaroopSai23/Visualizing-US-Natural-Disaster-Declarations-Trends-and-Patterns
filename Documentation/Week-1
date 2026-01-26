@@ -1,23 +1,27 @@
-Week 1 – Data Cleaning
+📅 Week 1: Data Cleaning Using Power BI
 
-Collected the US Natural Disaster Declarations dataset from FEMA, which contains historical disaster records across the United States.
+Imported the raw FEMA disaster declaration dataset into Power BI Desktop.
 
-Studied the dataset structure, including columns such as disaster number, declaration date, state, incident type, and assistance programs.
+Reviewed all columns to understand their meaning, structure, and relevance.
 
-Identified missing values in critical fields like dates and incident categories.
+Checked for missing values using Power BI’s data profiling features.
 
-Detected duplicate disaster records that could lead to incorrect analysis.
+Identified missing values in incident end date and retained them since many disasters are ongoing or occur for a single day.
 
-Checked for inconsistent naming of states and disaster types.
+Removed non-analytical identifier columns that do not contribute to insights.
 
-Removed unnecessary or irrelevant columns that did not contribute to analysis.
+Verified and corrected data types:
 
-Standardized column names for clarity and uniformity.
+Date fields set as date
 
-Ensured consistent date formats across the dataset.
+Numeric indicators set as numbers
 
-Verified the accuracy of disaster identifiers.
+Categorical fields (state, disaster type) set as text
 
-Prepared a clean and structured dataset suitable for further processing.
+Ensured column names were readable and consistent.
 
-Ensured data reliability to avoid misleading insights in later stages.
+Performed basic filtering to remove irrelevant or duplicate records.
+
+Prepared a clean and structured dataset suitable for further analysis.
+
+Established a strong foundation for deeper cleaning and EDA in Python.
