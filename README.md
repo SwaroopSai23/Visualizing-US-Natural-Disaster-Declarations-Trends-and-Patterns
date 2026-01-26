@@ -1,125 +1,149 @@
 📊 Visualizing US Natural Disaster Declarations
-
 (FEMA Dataset – End-to-End Data Analytics Project)
-
 1️⃣ Problem Statement
 
-Natural disasters have increased in frequency and impact over the years, but understanding their trends, geographical spread, and incident patterns remains challenging.
-This project analyzes FEMA’s disaster declaration data to uncover meaningful insights using data cleaning, EDA, and dashboard visualizations.
-The goal is to support data-driven awareness and better disaster preparedness.
+Natural disasters occur frequently across the United States, but analyzing their long-term trends, geographical distribution, and incident patterns using raw data is challenging. This project aims to transform FEMA’s disaster declaration data into meaningful insights by performing systematic data cleaning, exploratory data analysis (EDA), and building an interactive Power BI dashboard. The objective is to support data-driven understanding of disaster trends and enable better preparedness and planning.
 
 2️⃣ Dataset Description
 
-Source: FEMA Web Disaster Declarations Dataset
+Source: FEMA Disaster Declarations Dataset
 
-Scope: United States (All states & territories)
+Geographical Scope: United States (states and territories)
 
-Time Period: Multiple decades (historical data)
+Time Period: Historical data spanning multiple decades
 
 Key Attributes:
 
-Disaster declaration date
+Disaster declaration and incident dates
 
 State and region
 
-Incident type (Flood, Hurricane, Fire, etc.)
+Disaster / incident type (Flood, Storm, Drought, etc.)
 
-Assistance programs declared
+Request status and assistance programs
 
 Duration and frequency of incidents
 
-The dataset represents real-world live data, making it suitable for practical analytics and visualization use cases.
+This dataset represents real-world operational data, making it suitable for applied analytics and dashboard-driven insights.
 
-3️⃣ KPIs Used
+3️⃣ Data Cleaning & Preparation (Before Dashboard Creation)
 
-The following Key Performance Indicators (KPIs) were used to measure trends and performance:
+Before building the dashboard, the dataset was cleaned and prepared to ensure accuracy and reliability:
 
-📈 Total Disaster Declarations per Year – Measures disaster frequency over time
+Missing values were checked across all columns to assess data quality.
 
-🌍 State-wise Declaration Count – Identifies high-risk regions
+Missing incident end dates were retained, as many disasters are ongoing or single-day events, making the absence of an end date valid.
 
-🔥 Incident Type Frequency – Shows most common disaster types
+Non-analytical identifier columns were removed since they do not contribute to trend or insight generation.
 
-🕒 Seasonality Trends – Monthly and yearly disaster patterns
+Data types were verified and corrected:
 
-🧭 Program Declaration Ratio – Measures assistance program usage
+Date fields were formatted as date types
 
-4️⃣ Dashboard Pages
+Numeric fields were converted to numeric formats
 
-The dashboard is divided into logical sections:
+Categorical fields such as state and disaster type were treated as text
 
-Overview Page
+After cleaning, the structured dataset was imported into Power BI for modeling and visualization.
 
-Total declarations
+4️⃣ Exploratory Data Analysis (EDA in Business Context)
 
-Year-wise trend analysis
+Exploratory Data Analysis was performed with a business-driven focus to understand:
 
-High-level KPIs
+How disaster requests vary over time
 
-Time Trend Analysis
+Which states are most affected
 
-Disaster declarations by year
+Which disaster types occur most frequently
 
-Seasonal patterns (monthly trends)
+Whether patterns exist across years and regions
 
-Geographical Analysis
+EDA findings guided the selection of KPIs and visuals, ensuring the dashboard answered meaningful analytical questions rather than just presenting raw statistics.
 
-State-wise disaster distribution (map & bar charts)
+5️⃣ KPIs & Measures Created
 
-Regional hotspots
+To summarize and monitor disaster trends, the following KPIs were created in Power BI:
 
-Incident Type Analysis
+Total Requests – Represents the overall number of disaster declaration requests
 
-Frequency of disaster types
+Unique States – Indicates the geographical spread of disasters
 
-Incident type vs state comparison
+Rejected Rate – Shows the proportion of rejected requests, chosen instead of approval rate due to dataset characteristics
 
-5️⃣ Key Insights
+These KPIs provide a quick, high-level understanding of disaster activity.
 
-Disaster declarations have increased steadily over time, especially in recent decades
+6️⃣ Dashboard Structure & Visuals
 
-Floods and storms are the most frequently declared incidents
+The Power BI dashboard was structured into clear analytical components:
 
-Coastal and western states show higher disaster concentration
+🔹 Overview Section
 
-Clear seasonal patterns exist for hurricanes and floods
+KPI cards showing total requests and state coverage
 
-Certain states consistently require federal assistance programs
+High-level summary of disaster activity
 
-6️⃣ Recommendations
+🔹 Time Trend Analysis
 
-Improve disaster preparedness in high-frequency states
+Line chart showing disaster requests by year
 
-Allocate resources seasonally based on historical trends
+Helps identify spikes, declines, and long-term trends
 
-Strengthen early-warning systems for dominant incident types
+🔹 State-wise Analysis
 
-Use predictive analytics for future disaster planning
+Bar chart highlighting top states by disaster requests
 
-Continuously update dashboards with live FEMA data
+Filled map visualizing geographic concentration
 
-7️⃣ Tools Used
+🔹 Incident Type Analysis
 
-Python – Core data analysis
+Bar chart showing frequency of disaster types
 
-Pandas & NumPy – Data cleaning and transformation
+Identifies dominant incident categories such as floods and storms
 
-Matplotlib & Seaborn – Static visualizations
+7️⃣ Interactive Filters (Slicers)
 
-Plotly – Interactive charts
+To enable dynamic analysis, slicers were added:
 
-Power BI – Dashboard creation
+State Filter: Focuses analysis on selected states
 
-Jupyter Notebook – Analysis and documentation
+Disaster Type Filter: Allows analysis of specific incident categories
 
-GitHub – Version control and project hosting
+Year Filter: Enables time-range based exploration
 
-🗂️ Project Learning Timeline
+All visuals and KPIs update automatically based on slicer selections, allowing flexible and focused analysis.
 
-Week 1: Data Cleaning (handling missing values, formatting, validation)
+8️⃣ Key Insights Derived
 
-Week 2: Data Cleaning using Python (Pandas, NumPy)
+Disaster declaration requests have increased over time, with noticeable spikes in certain years
 
-Week 3: Exploratory Data Analysis (EDA & visual patterns)
+Floods and severe storms are the most frequently declared disaster types
 
-Week 4: Live Dataset Importing & Dashboard Development
+A small number of states contribute a disproportionately high number of requests
+
+Disaster activity shows variation across regions and time periods
+
+9️⃣ Recommendations Based on Analysis
+
+Focus disaster preparedness efforts on high-frequency states
+
+Allocate resources based on historical disaster patterns
+
+Strengthen planning for dominant disaster types such as floods and storms
+
+Use historical trends as a foundation for future predictive analysis
+
+🔧 Tools & Technologies Used
+
+Python: Data cleaning and preliminary analysis
+
+Pandas & NumPy: Data manipulation and transformation
+
+Power BI Desktop: Data modeling, measures, and dashboard creation
+
+Jupyter Notebook: EDA and documentation
+
+GitHub: Version control and project sharing
+
+🏁 Project Outcome
+
+This project demonstrates an end-to-end data analytics workflow—from raw data cleaning and business-oriented EDA to interactive dashboard development—providing actionable insights into disaster trends, geography, and incident patterns using Power BI.
