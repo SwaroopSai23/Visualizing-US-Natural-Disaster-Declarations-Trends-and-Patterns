@@ -1,21 +1,21 @@
-Week 3 – Exploratory Data Analysis (Planned / Proposed)
+📅 Week 3: Exploratory Data Analysis (EDA)
 
-Plan to analyze year-wise trends in disaster declarations.
+Conducted EDA to understand patterns, trends, and relationships in the data.
 
-Plan to perform state-wise disaster frequency analysis.
+Analyzed year-wise disaster declaration trends to identify growth and spikes.
 
-Plan to identify most frequent incident types.
+Examined state-wise distribution to find high-risk regions.
 
-Plan to study seasonal patterns in disaster occurrences.
+Analyzed disaster types to determine the most frequent incident categories.
 
-Plan to calculate basic statistics related to disaster data.
+Explored time-based patterns to identify seasonal and long-term trends.
 
-Plan to create visualizations using Python libraries.
+Used EDA findings to decide meaningful KPIs and visuals.
 
-Plan to interpret trends and patterns from visuals.
+Validated assumptions using real data patterns instead of guesses.
 
-Plan to identify disaster-prone regions.
+Identified insights that align with real-world disaster behavior.
 
-Plan to summarize insights for reporting.
+Documented key observations for dashboard design.
 
-Plan to prepare findings for dashboard design.
+Ensured EDA focused on business relevance rather than only statistics.
