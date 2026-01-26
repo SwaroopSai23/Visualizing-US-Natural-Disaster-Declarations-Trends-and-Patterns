@@ -1,5 +1,7 @@
 📊 Visualizing US Natural Disaster Declarations
 (FEMA Dataset – End-to-End Data Analytics Project)
+
+
 1️⃣ Problem Statement
 
 Natural disasters occur frequently across the United States, but analyzing their long-term trends, geographical distribution, and incident patterns using raw data is challenging. This project aims to transform FEMA’s disaster declaration data into meaningful insights by performing systematic data cleaning, exploratory data analysis (EDA), and building an interactive Power BI dashboard. The objective is to support data-driven understanding of disaster trends and enable better preparedness and planning.
